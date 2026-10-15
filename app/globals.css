@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@theme { --color-brand: #1E40AF; }
+body { background: #f8fafc; color: #0f172a; font-family: Arial, sans-serif; }
+button, input, select, textarea { min-height: 48px; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .5; }
+input, select, textarea { width: 100%; border: 1px solid #cbd5e1; border-radius: .75rem; padding: .75rem; background: white; }
+:focus-visible { outline: 3px solid #1e40af; outline-offset: 3px; }
+
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
